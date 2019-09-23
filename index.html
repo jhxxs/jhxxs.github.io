@@ -1,161 +1,177 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Meaningless</title>
-<meta name="description" content="Just a replacement for memories.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<meta name="description" content="Just a replacement for memories." />
+<link rel="shortcut icon" href="https://jhxxs.github.io/favicon.ico?v=1569224790519">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://jhxxs.github.io/favicon.ico?v=1569224655869">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://jhxxs.github.io/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://jhxxs.github.io">
-        <img src="https://jhxxs.github.io/images/avatar.png?v=1569224655869" class="site-logo">
-        <h1 class="site-title">Meaningless</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://jhxxs.github.io">
+  <img class="avatar" src="https://jhxxs.github.io/images/avatar.png?v=1569224790519" alt="">
+  </a>
+  <h1 class="site-title">
+    Meaningless
+  </h1>
+  <p class="site-description">
+    Just a replacement for memories.
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
+    
       
-    </div>
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-    </div>
-    <div class="site-description">
-      Just a replacement for memories.
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://jhxxs.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+    
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://jhxxs.github.io/post/你不知道的JavaScript-1-1作用域">
-                  <h2 class="post-title">你不知道的JavaScript-1-1作用域</h2>
-                </a>
-                <div class="post-date">
-                  2018-07-20
-                </div>
-                <div class="post-abstract">
-                  <blockquote>
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://jhxxs.github.io/post/你不知道的JavaScript-1-1作用域">
+        <h2 class="post-title">你不知道的JavaScript-1-1作用域</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2018-07-20
+        </span>
+        <span>
+          3 min read
+        </span>
+        
+      </div>
+      
+      <div class="post-abstract">
+        <blockquote>
 <p>买了你不知道的JavaScript系列上卷和中卷，放了快一年都没看，也是时候过一遍了。</p>
 </blockquote>
 
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://jhxxs.github.io/post/瞎折腾">
-                  <h2 class="post-title">瞎折腾--从搜索到放弃</h2>
-                </a>
-                <div class="post-date">
-                  2018-01-16
-                </div>
-                <div class="post-abstract">
-                  <p>时而折腾手机，时而折腾电脑。平日里闲着没事干，就喜欢把各种编辑器玩个转。最先知道的是sublime text，为了装个插件也是百般折腾，后来看到有人说atom对Markdown支持非常不错，于是下载了atom，它的markdown插件简直是神器。又听说vscode受到很多人的赞扬，而且还支持终端，毕竟是巨硬出品，赶快下载了vscode。vscode轻便，我已经很长时间没打开sublime了，什么？你说cmd，那是什么？<br>
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://jhxxs.github.io/post/瞎折腾">
+        <h2 class="post-title">瞎折腾--从搜索到放弃</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2018-01-16
+        </span>
+        <span>
+          2 min read
+        </span>
+        
+      </div>
+      
+      <div class="post-abstract">
+        <p>时而折腾手机，时而折腾电脑。平日里闲着没事干，就喜欢把各种编辑器玩个转。最先知道的是sublime text，为了装个插件也是百般折腾，后来看到有人说atom对Markdown支持非常不错，于是下载了atom，它的markdown插件简直是神器。又听说vscode受到很多人的赞扬，而且还支持终端，毕竟是巨硬出品，赶快下载了vscode。vscode轻便，我已经很长时间没打开sublime了，什么？你说cmd，那是什么？<br>
 怎么把Windows打造得更顺手，且往下看。</p>
 
-                </div>
-              </div>
-              
-            </article>
-          
+      </div>
+    </article>
+  
+</div>
 
-          <div class="pagination-container">
+    
+        <div class="pagination-container">
   
   
 </div>
 
-        </div>
-      </div>
-    </div>
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://jhxxs.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  hljs.initHighlightingOnLoad()
 
-<script type="application/javascript">
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-AOS.init();
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
 
-hljs.initHighlightingOnLoad()
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
 
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
