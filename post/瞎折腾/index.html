@@ -5,14 +5,14 @@
     
 <meta charset="utf-8" >
 
-<title>Gridea | Meaningless</title>
+<title>瞎折腾--从搜索到放弃 | Meaningless</title>
 <meta name="description" content="Just a replacement for memories.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://jhxxs.github.io/favicon.ico?v=1569222317176">
+<link rel="shortcut icon" href="https://jhxxs.github.io/favicon.ico?v=1569224411924">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://jhxxs.github.io/styles/main.css">
 
@@ -39,7 +39,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://jhxxs.github.io">
-        <img class="avatar" src="https://jhxxs.github.io/images/avatar.png?v=1569222317176" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://jhxxs.github.io/images/avatar.png?v=1569224411924" alt="" width="32px" height="32px">
       </a>
       <a href="https://jhxxs.github.io">
         <h1 class="site-title">Meaningless</h1>
@@ -87,55 +87,43 @@
 
 
       <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">瞎折腾--从搜索到放弃</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2018-01-16</span>
+            
+          </div>
+          <div class="post-content">
+            <p>时而折腾手机，时而折腾电脑。平日里闲着没事干，就喜欢把各种编辑器玩个转。最先知道的是sublime text，为了装个插件也是百般折腾，后来看到有人说atom对Markdown支持非常不错，于是下载了atom，它的markdown插件简直是神器。又听说vscode受到很多人的赞扬，而且还支持终端，毕竟是巨硬出品，赶快下载了vscode。vscode轻便，我已经很长时间没打开sublime了，什么？你说cmd，那是什么？<br>
+怎么把Windows打造得更顺手，且往下看。</p>
+<!-- more -->
+<h3 id="chocolatey">Chocolatey</h3>
+<blockquote>
+<p>mac和linux都有自己的包管理器，而windows没有。所以在搭建一些开发环境需要下载某些开发工具时，mac和linux都可以直接在终端里通过命令行安装自己想要的工具。而windows则要满世界的搜索，因为谷歌被墙，用百度搜软件时有时候连官网都找不到。</p>
+</blockquote>
+<p>后来在不断的寻找过程中，一次偶然的机会我知道了<a href="https://chocolatey.org/" title="The package manager for Windows
+Chocolatey - Software Management Automation">chocolatey</a>，windows下的包管理工具。<br>
+官网提供了几种安装方式，我常用cmd的方式安装：</p>
+<pre><code class="language-powershell">@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;
+</code></pre>
+<ul>
+<li>切记一定要在管理员身份运行下的终端里使用，不然会报无法reach的错。</li>
+</ul>
+<p>安装成功之后就可以愉快的使用巧克力了。<br>
+使用巧克力安装软件：</p>
+<pre><code class="language-shell">choco install nodejs
+npm install hexo-cli -g
+</code></pre>
+<p>当然<code>choco install</code>可以简写为<code>cinst</code></p>
 
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> Gridea
-          </h2> 
+          </div>
         </div>
 
         
-<section class="post-item">
-    <div class="content">
-      <a href="https://jhxxs.github.io/post/hello-gridea">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
       </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://jhxxs.github.io/tag/4gvX--_me">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="https://jhxxs.github.io/post/hello-gridea">
-        <div class="feature-container" style="background-image: url('https://jhxxs.github.io/post-images/hello-gridea.png')">
-        </div>
-      </a>
-    
-  </section>
 
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
+      
 
       <div class="site-footer">
   <div class="slogan">Just a replacement for memories.</div>
