@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jhxxs.github.io</id>
     <title>Meaningless</title>
-    <updated>2019-09-23T07:57:32.146Z</updated>
+    <updated>2019-09-23T08:28:41.533Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jhxxs.github.io"/>
     <link rel="self" href="https://jhxxs.github.io/atom.xml"/>
@@ -75,7 +75,7 @@ LHS查询有：隐式的<code>a = 2</code>操作。</p>
 <p>后来在不断的寻找过程中，一次偶然的机会我知道了<a href="https://chocolatey.org/" title="The package manager for Windows
 Chocolatey - Software Management Automation">chocolatey</a>，windows下的包管理工具。<br>
 官网提供了几种安装方式，我常用cmd的方式安装：</p>
-<pre><code class="language-powershell">@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;
+<pre><code class="language-shell">@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;
 </code></pre>
 <ul>
 <li>切记一定要在管理员身份运行下的终端里使用，不然会报无法reach的错。</li>
