@@ -4,10 +4,17 @@
         <title>Kyle's Blog Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
         <description>Kyle's Blog Blog</description>
-        <lastBuildDate>Sat, 16 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[跨repo部署博客到Github Pages]]></title>
+            <link>https://your-docusaurus-test-site.com/blog/2022/04/17/deploy-to-github-pages-with-cross-repo-publish</link>
+            <guid>/2022/04/17/deploy-to-github-pages-with-cross-repo-publish</guid>
+            <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
+            <category>踩坑</category>
+        </item>
         <item>
             <title><![CDATA[由一次排错想到的]]></title>
             <link>https://your-docusaurus-test-site.com/blog/2022/04/16/difference-between-onclick-and-@click</link>
