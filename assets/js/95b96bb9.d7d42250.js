@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_websites=self.webpackChunkmy_websites||[]).push([[561],{4577:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u7531\u4e00\u6b21\u6392\u9519\u60f3\u5230\u7684","permalink":"/blog/2022/04/16/difference-between-onclick-and-@click"}]}')}}]);
