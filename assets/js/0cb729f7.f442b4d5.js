@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_websites=self.webpackChunkmy_websites||[]).push([[145],{4718:e=>{e.exports=JSON.parse('{"permalink":"/tags/windows","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
