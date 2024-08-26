@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_new=self.webpackChunkblog_new||[]).push([[1672],{3024:e=>{e.exports=JSON.parse('{"authors":[{"name":"Kyle Von","url":"https://github.com/jhxxs","imageURL":"https://avatars.githubusercontent.com/u/7448223?s=96&v=4","key":"kyle","page":null,"count":4}]}')}}]);
